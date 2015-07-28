@@ -1,5 +1,5 @@
 {
-  "name": "Gus-Wortham",//change this to your project name
+  "name": "project-name",//change this to your project name
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.5",

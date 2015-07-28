@@ -2,7 +2,7 @@
 
 Download repository `https://github.com/josegomez832/Gruntfile.git`
 
-You'll need to make a few changes to the `package.json` file like updating the name. You'll also need to edit the Gruntfile.js and update the path to your css/scss files. You can install new plugins which ever best fits your project. You can find more at <a href="http://gruntjs.com/plugins/contrib">http://gruntjs.com/plugins/contrib</a>. But so far this should do the trick for our development purposes.
+You'll need to make a few changes to the `package.json` file like updating the name. You'll also need to edit the Gruntfile.js and update the path to your css/scss files. You can install new plugins which ever best fits your project. **Note that you do not need to create your stylesheets. You can create your SCSS file and when you `grunt` in your project directory it should create your regular css file and a minified version of your css.** You can find more at <a href="http://gruntjs.com/plugins/contrib">http://gruntjs.com/plugins/contrib</a>. But so far this should do the trick for our development purposes.
 
 ## Getting up and running with Grunt
 
@@ -22,4 +22,5 @@ Assuming that the Grunt CLI has been installed and that the project has already 
 
 - Change to the project's root directory aka `cd`. 
 - Install project dependencies with `npm install`.
-- Run Grunt with `grunt`. Grunt will not `watch` for any new changes from your scss file.
+- Run Grunt with `grunt`. Grunt will now `watch` for any new changes from your scss file.
+- To stop `grunt` press `ctrl + c`
